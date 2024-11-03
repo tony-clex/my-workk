@@ -384,7 +384,7 @@ footer {
     list-style-type: none;
     gap: 5px;
   }
-  
+
   nav ul li {
     color: white;
     text-decoration: none;
@@ -426,7 +426,7 @@ footer {
     font-size: medium;
   }
 
-  .act1 :no-button {
+  .act1 button {
     margin-top: 15%;
   }
 
@@ -467,7 +467,7 @@ footer {
 
   .chapter5 {
     display: grid;
-    grid-template-columns: 4fr 2fr ;
+    grid-template-columns: 4fr 2fr;
     margin-top: 4%;
   }
 
@@ -494,6 +494,7 @@ footer {
     text-align: center;
     padding-top: 12%;
   }
+
   .solo p {
     text-align: center;
   }
@@ -519,7 +520,9 @@ footer {
   .ozi1 {
     display: grid;
     grid-template-columns: 2fr 2fr;
-  }.corner {
+  }
+  
+  .corner {
     display: flex;
   }
 }
