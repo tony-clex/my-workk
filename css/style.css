@@ -195,6 +195,11 @@ header button {
 
 .messi img {
   width: 30%;
+  height: 20px;
+}
+
+.messi1 img {
+  height: 23px;
 }
 
 .messi1 {
@@ -366,4 +371,158 @@ footer {
 
 .ozi h1 {
   color: white;
+}
+
+@media (min-width: 700px) {
+  .material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+    display: none;
+  }
+
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 5px;
+  }
+
+  nav ul li {
+    color: white;
+    text-decoration: none;
+  }
+
+  header h1 {
+    text-align: left;
+    font-size: xx-large;
+    margin-top: 10%;
+  }
+
+  header p {
+    text-align: left;
+    font-size: medium;
+    margin-top: 2%;
+  }
+
+  .chapter1 {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    justify-content: space-between;
+  }
+
+  .act1 {
+    margin-top: 25%;
+  }
+
+  .chapter1 img {
+    width: 45%;
+    margin-top: 4%;
+    margin-left: 53%;
+  }
+
+  .act1 h1 {
+    font-size: xx-large;
+  }
+
+  .act1 h5 {
+    font-size: medium;
+  }
+
+  .act1 button {
+    margin-top: 15%;
+  }
+
+  .pep1 h1 {
+    font-size: xx-large;
+    padding: 10%;
+  }
+
+  .pep1 p {
+    margin-left: 37%;
+  }
+
+  .foden1 {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+  }
+
+  .box {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 3fr 3fr;
+  }
+
+  .chapter4 {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+  }
+
+  .messi h1 {
+    font-size: xx-large;
+  }
+
+  .chapter4 img {
+    width: 95%;
+    margin-top: 13%;
+    height: 94%;
+  }
+
+  .chapter5 {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    margin-top: 4%;
+  }
+
+  .chapter5 img {
+    width: 60%;
+    height: 90%;
+  }
+
+  .neymar1 {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-template-rows: 4fr 4fr;
+  }
+
+  .neymar img {
+    height: 75px;
+  }
+
+  .solo {
+    background-repeat: no-repeat;
+  }
+
+  .solo h1 {
+    text-align: center;
+    padding-top: 12%;
+  }
+
+  .solo p {
+    text-align: center;
+  }
+
+  .suarez {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+  }
+
+  .messi1 img {
+    height: 5%;
+  }
+
+  .chapter7 {
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+  }
+
+  .drogba1 {
+    display: flex;
+  }
+
+  .ozi1 {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
+
+  .corner {
+    display: flex;
+  }
 }
